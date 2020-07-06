@@ -5,6 +5,10 @@
 //  Created by Yunis Farah on 06/07/2020.
 //  Copyright © 2020 LunarColony. All rights reserved.
 //
+//  This project was an introduction to SwiftUI and app building
+//
+//
+//
 
 import SwiftUI
 
@@ -15,7 +19,9 @@ struct ContentView: View {
 
     @State private var tipPercentages = [10, 15, 20, 25, 0]
 
-    
+    /**
+     This computed properties calculates the amount each individual needs to pay based the states of the properties define above
+     */
    var totalPerson: Double {
         let peopleCount = Double(numberOfPeople + 1)
         let tipSelection = Double(tipPercentages[tipPercentage])
@@ -26,11 +32,6 @@ struct ContentView: View {
         let amountPerPerson = grandTotal / peopleCount
         return amountPerPerson
     }
-    
-    
-    
-    
-    
     var body: some View {
         NavigationView {
             Form {
@@ -57,13 +58,6 @@ struct ContentView: View {
                 Section {
                     Text("$\(totalPerson, specifier: "%.2f")")
                 }
-
-
-
-
-
-
-
 
             }
                 .navigationBarTitle("WeSplit")
