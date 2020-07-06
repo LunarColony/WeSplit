@@ -8,7 +8,7 @@ The project was followed alongside the tutorial available on [Hacking with Swift
 ## Notes
 #### The calculation logic
 To order to calculate the amount to pay, it is contingent in gathering the correct information so that a suitable and correct result is returned. 
-The property wrapper @State captures any changes to the state value and re-invokes the view, then it recomputes the body again.
+The property wrapper `@State` captures any changes to the state value and re-invokes the view, then it recomputes the body again.
 
 ```swift
     @State private var checkAmount = ""
