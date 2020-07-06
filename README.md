@@ -26,7 +26,7 @@ This computed properties calculates the amount each individual needs to pay base
         let tipSelection = Double(tipPercentages[tipPercentage])
         let orderAmount = Double(checkAmount) ?? 0
         
-        let tipValue = ( orderAmount / 100 ) * tipSelection
+        let tipValue = (orderAmount / 100) * tipSelection
         let grandTotal = orderAmount + tipValue
         let amountPerPerson = grandTotal / peopleCount
         return amountPerPerson
