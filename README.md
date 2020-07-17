@@ -17,7 +17,7 @@ The property wrapper `@State` captures any changes to the state value and re-inv
     @State private var tipPercentages = [10, 15, 20, 25, 0]
 
 ```
-This computed properties calculates the amount each individual needs to pay based the states of the properties defined above
+This computed properties calculates the amount each individual needs to pay based on the states of the properties defined above
 
 ```swift
 
