@@ -31,5 +31,5 @@ This computed properties calculates the amount each individual needs to pay base
     }
 ```
 
-## References
+## Credit
 Special thanks to Paul at [Hacking with Swift](https://www.hackingwithswift.com/100/swiftui)
