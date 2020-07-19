@@ -1,6 +1,7 @@
 # WeSplit
 A simple check splitting app, this application is my first proper application in which I incorporated different aspects of the Swift programming language and the SwiftUI framework.
 
+## Demo
 <img src="https://user-images.githubusercontent.com/64978825/86610661-9051a400-bfa5-11ea-9935-6aafdca5f329.gif"/>
 
 ## Notes
