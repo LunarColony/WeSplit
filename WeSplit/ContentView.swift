@@ -20,7 +20,7 @@ struct ContentView: View {
     @State private var tipPercentages = [10, 15, 20, 25, 0]
 
     /**
-     This computed properties calculates the amount each individual needs to pay based the states of the properties define above
+     This computed property calculates the amount each individual needs to pay based the states of the properties define above
      */
    var totalPerson: Double {
         let peopleCount = Double(numberOfPeople + 1)
